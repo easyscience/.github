@@ -1,11 +1,11 @@
-| Project                     | 🏠 Project Hub      | 📦 Python Library      | 💻 Desktop Application | 🌐 Main Web Page       |
-|-----------------------------|---------------------|------------------------|------------------------|------------------------|
-| ![ed-dark]![ed-light]       | [diffraction]       | [diffraction-lib]      | [diffraction-app]      | [diffraction-page]     |
-| ![er-dark]![er-light]       | [reflectometry]     | [reflectometry-lib]    | [reflectometry-app]    | [reflectometry-page]   |
-| ![ei-dark]![ei-light]       | [imaging]           | [imaging-lib]          | [imaging-app]          |                        |
-| ![eq-dark]![eq-light]       | [dynamics]          | [dynamics-lib]         | [dynamics-app]         |                        |
-| ![et-dark]![et-light]       |                     |                        | [texture-app]          |                        |
-| ![esh-dark]![esh-light]     |                     |                        | [shapes-app]           |                        |
+| Project                     | 🏠<br/>Project Hub  | 📦<br/>Python Library | 💻<br/>Desktop Application | 🌐<br/>Main Web Page   |
+|-----------------------------|---------------------|------------------------|----------------------------|------------------------|
+| ![ed-dark]![ed-light]       | [diffraction]       | [diffraction-lib]      | [diffraction-app]          | [diffraction-page]     |
+| ![er-dark]![er-light]       | [reflectometry]     | [reflectometry-lib]    | [reflectometry-app]        | [reflectometry-page]   |
+| ![ei-dark]![ei-light]       | [imaging]           | [imaging-lib]          | [imaging-app]              |                        |
+| ![eq-dark]![eq-light]       | [dynamics]          | [dynamics-lib]         | [dynamics-app]             |                        |
+| ![et-dark]![et-light]       |                     |                        | [texture-app]              |                        |
+| ![esh-dark]![esh-light]     |                     |                        | [shapes-app]               |                        |
 
 <!---URLs--->
 
