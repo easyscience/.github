@@ -45,9 +45,9 @@
 [reflectometry-page]: https://easyscience.github.io/EasyReflectometryWww
 
 <!---Imaging--->
-[imaging]: https://github.com/EasyScience/EasyReflectometry
-[imaging-lib]: https://github.com/EasyScience/EasyImagingLib
-[imaging-app]: https://github.com/EasyScience/EasyImagingApp
+[imaging]: https://github.com/EasyScience/imaging
+[imaging-lib]: https://github.com/EasyScience/imaging-lib
+[imaging-app]: https://github.com/EasyScience/imaging-app
 
 <!---QENS/Spectroscopy--->
 [dynamics]: https://github.com/EasyScience/EasyQens
