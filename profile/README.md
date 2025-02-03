@@ -1,11 +1,11 @@
-| Project                     | Description                                       | 🏠<br/>Project<br/>Home  | 📦<br/>Python<br/>Library | 💻<br/>Desktop<br/>Application |
-|-----------------------------|---------------------------------------------------|--------------------------|---------------------------|---------------------------------|
-| ![ed-dark]![ed-light]       | Diffraction **data analysis**                     | [diffraction]            | [diffraction-lib]         | [diffraction-app]               |
-| ![er-dark]![er-light]       | Reflectometry **data analysis**                   | [reflectometry]          | [reflectometry-lib]       | [reflectometry-app]             |
-| ![ei-dark]![ei-light]       | Bragg-edge imaging **data analysis**              | [imaging]                | [imaging-lib]             | [imaging-app]                   |
-| ![eq-dark]![eq-light]       | Quasielastic neutron scattering **data analysis** | [dynamics]               | [dynamics-lib]            | [dynamics-app]                  |
-| ![et-dark]![et-light]       | Texture **data reduction**                        |                          |                           | [texture-app]                   |
-| ![esh-dark]![esh-light]     |                                                   |                          |                           | [shapes-app]                    |
+| Project                     | Description                                         | 🏠<br/>Project<br/>Home  | 📦<br/>Python<br/>Library | 💻<br/>Desktop<br/>Application |
+|-----------------------------|-----------------------------------------------------|--------------------------|---------------------------|---------------------------------|
+| ![ed-dark]![ed-light]       | Diffraction<br/>`data analysis`                     | [diffraction]            | [diffraction-lib]         | [diffraction-app]               |
+| ![er-dark]![er-light]       | Reflectometry<br/>`data analysis`                   | [reflectometry]          | [reflectometry-lib]       | [reflectometry-app]             |
+| ![ei-dark]![ei-light]       | Bragg-edge imaging<br/>`data analysis`              | [imaging]                | [imaging-lib]             | [imaging-app]                   |
+| ![eq-dark]![eq-light]       | Quasielastic neutron scattering<br/>`data analysis` | [dynamics]               | [dynamics-lib]            | [dynamics-app]                  |
+| ![et-dark]![et-light]       | Texture<br/>`data reduction`                        |                          |                           | [texture-app]                   |
+| ![esh-dark]![esh-light]     |                                                     |                          |                           | [shapes-app]                    |
 
 <!---URLs--->
 
