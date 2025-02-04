@@ -15,13 +15,12 @@ These projects focus on different scientific techniques for data analysis and re
 
 These are essential building blocks that support the domain-specific projects.
 
-| Project                     | Description                                            | Repository |
-|-----------------------------|--------------------------------------------------------|---------------------------|
-| ![eso-dark]![eso-light]     | EasyScience Organization Profile                       | [.github]                |
-| ![es-dark]![es-light]       | Core Library<br/>`Backend`                             | [corelib]                |
-| ![ecr-dark]![ecr-light]     | Crystallographic Computation Tools<br/>`Backend`       | [crystallography]         |
-| ![ea-dark]![ea-light]       | GUI Components for Desktop Applications<br/>`Frontend` | [guilib]         |
-
+| Project                     | Description                                            | Repository        |
+|-----------------------------|--------------------------------------------------------|-------------------|
+| ![eso-dark]![eso-light]     | EasyScience Organization Profile                       | [.github]         |
+| ![es-dark]![es-light]       | EasyScience Core Library<br/>`Backend`                 | [corelib]         |
+| ![ecr-dark]![ecr-light]     | Crystallographic Computation Tools<br/>`Backend`       | [crystallography] |
+| ![ea-dark]![ea-light]       | GUI Components for Desktop Applications<br/>`Frontend` | [guilib]          |
 
 
 <!---LOGOS--->
