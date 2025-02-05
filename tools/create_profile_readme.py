@@ -2,7 +2,7 @@ import yaml
 from typing import Dict
 
 
-def read_yaml_file(file_path: str) -> Dict:
+def read_yaml(file_path: str) -> Dict:
     """
     Reads a YAML file and returns its content as a dictionary.
     :param file_path: Path to the YAML file.
@@ -12,7 +12,7 @@ def read_yaml_file(file_path: str) -> Dict:
         return yaml.safe_load(file)
 
 
-def write_markdown_file(file_path: str, content: str) -> None:
+def write_markdown(file_path: str, content: str) -> None:
     """
     Writes the generated Markdown content to a file.
     :param file_path: Path to the Markdown file.
@@ -22,7 +22,7 @@ def write_markdown_file(file_path: str, content: str) -> None:
         file.write(content)
 
 
-def generate_logo(project_name: str) -> str:
+def generate_project_logo(project_name: str) -> str:
     """
     Generates an HTML block for a project's logo using branding assets.
     :param project_name: Name of the project.
@@ -57,6 +57,15 @@ def generate_repository_links(data: Dict) -> str:
     return links_md
 
 
+def generate_icon(icon_name: str) -> str:
+    """
+    Generates an HTML image tag for an icon using FontAwesome assets.
+    :param icon_name: Name of the FontAwesome icon.
+    :return: HTML image element containing the icon.
+    """
+    return f"<img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/fontawesome/{icon_name}.svg' height='24px'>"
+
+
 def generate_markdown(data: Dict) -> str:
     """
     Generates the full Markdown content for domain-specific projects and core framework modules.
@@ -64,35 +73,41 @@ def generate_markdown(data: Dict) -> str:
     :return: Markdown-formatted string.
     """
     # Domain-Specific Projects Table
-    markdown_output = "### Domain-Specific Projects"
-    markdown_output += "\n\nThese projects focus on different scientific techniques for data analysis and reduction.\n\n"
-    markdown_output += "| Project | 🏷 | 📖<br/>Description | 🏠<br/>Project<br/>Home | 📦<br/>Python<br/>Library | 🖥<br/>Desktop<br/>Application |\n"
-    markdown_output += "|---------|----|--------------------|-------------------------|---------------------------|---------------------------------|\n"
+    markdown_output = "### Domain-Specific Projects\n\nThese projects focus on different scientific techniques for data analysis and reduction.\n\n"
+    markdown_output += (f"| {generate_icon('fa-folder')}<br/>Project | "
+                        f"{generate_icon('fa-tag')}<br/>Tag | "
+                        f"{generate_icon('fa-circle-info')}<br/>Description | "
+                        f"{generate_icon('fa-house')}<br/>Home | "
+                        f"{generate_icon('fa-box')}<br/>Library | "
+                        f"{generate_icon('fa-window-maximize')}<br/>Application |\n")
+    markdown_output += "|-|-|-|-|-|-|\n"
 
     for project in data['domain-specific-projects']:
-        logo = generate_logo(project['name'])
+        logo = generate_project_logo(project['name'])
         shortcut = project['shortcut']
-        desc = f"{project['description']['main']}<br/>`{project['description']['type']}`"
+        description = f"{project['description']['main']}<br/>`{project['description']['type']}`"
 
         project_home = f"[{project['repos'].get('project', '')}]" if 'project' in project['repos'] else ""
         python_lib = f"[{project['repos'].get('lib', '')}]" if 'lib' in project['repos'] else ""
         desktop_app = f"[{project['repos'].get('app', '')}]" if 'app' in project['repos'] else ""
 
-        markdown_output += f"| {logo} | {shortcut} | {desc} | {project_home} | {python_lib} | {desktop_app} |\n"
+        markdown_output += f"| {logo} | {shortcut} | {description} | {project_home} | {python_lib} | {desktop_app} |\n"
 
     # Core Framework Modules Table
-    markdown_output += "\n### Core Framework Modules"
-    markdown_output += "\n\nThese are essential building blocks that support the domain-specific projects.\n\n"
-    markdown_output += "| Project | 🏷 | 📖<br/>Description | 📦<br/>Library |\n"
-    markdown_output += "|---------|----|---------------------|----------------|\n"
+    markdown_output += "\n### Core Framework Modules\n\nThese are essential building blocks that support the domain-specific projects.\n\n"
+    markdown_output += (f"| {generate_icon('fa-folder')}<br/>Project | "
+                        f"{generate_icon('fa-tag')}<br/>Tag | "
+                        f"{generate_icon('fa-circle-info')}<br/>Description | "
+                        f"{generate_icon('fa-box')}<br/>Library |\n")
+    markdown_output += "|-|-|-|-|\n"
 
     for module in data['core-framework-modules']:
-        logo = generate_logo(module['name'])
+        logo = generate_project_logo(module['name'])
         shortcut = module['shortcut']
-        desc = f"{module['description']['main']}<br/>`{module['description']['type']}`"
+        description = f"{module['description']['main']}<br/>`{module['description']['type']}`"
         repo = f"[{module['repo']}]"
 
-        markdown_output += f"| {logo} | {shortcut} | {desc} | {repo} |\n"
+        markdown_output += f"| {logo} | {shortcut} | {description} | {repo} |\n"
 
     # Append Repository Links
     markdown_output += "\n" + generate_repository_links(data)
@@ -104,8 +119,8 @@ if __name__ == "__main__":
     yaml_file_path = "profile/README.yaml"  # Path to input YAML file
     markdown_file_path = "profile/README.md"  # Path to output Markdown file
 
-    project_data = read_yaml_file(yaml_file_path)
+    project_data = read_yaml(yaml_file_path)
     markdown_content = generate_markdown(project_data)
-    write_markdown_file(markdown_file_path, markdown_content)
+    write_markdown(markdown_file_path, markdown_content)
 
     print("Markdown file has been successfully generated.")
