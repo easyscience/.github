@@ -33,7 +33,21 @@ def generate_project_logo(project_name: str) -> str:
     return (f"<picture>"
             f"<source media='(prefers-color-scheme: light)' srcset='{logos_url}/light.svg'>"
             f"<source media='(prefers-color-scheme: dark)' srcset='{logos_url}/dark.svg'>"
-            f"<img src='{logos_url}/light.svg' height='38px' alt='{project_name}'>"
+            f"<img src='{logos_url}/light.svg' height='36px' alt='{project_name}'>"
+            f"</picture>")
+
+
+def generate_icon(icon_name: str) -> str:
+    """
+    Generates an HTML image tag for an icon using FontAwesome assets.
+    :param icon_name: Name of the FontAwesome icon.
+    :return: HTML image element containing the icon.
+    """
+    icons_url = f"https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/fontawesome"
+    return (f"<picture>"
+            f"<source media='(prefers-color-scheme: light)' srcset='{icons_url}/{icon_name}_light.svg'>"
+            f"<source media='(prefers-color-scheme: dark)' srcset='{icons_url}/{icon_name}_dark.svg'>"
+            f"<img src='{icons_url}/{icon_name}_light.svg' height='20px'>"
             f"</picture>")
 
 
@@ -55,15 +69,6 @@ def generate_repository_links(data: Dict) -> str:
         links_md += f"[{module['repo']}]: {org_url}/{module['repo']}\n"
 
     return links_md
-
-
-def generate_icon(icon_name: str) -> str:
-    """
-    Generates an HTML image tag for an icon using FontAwesome assets.
-    :param icon_name: Name of the FontAwesome icon.
-    :return: HTML image element containing the icon.
-    """
-    return f"<img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/fontawesome/{icon_name}.svg' height='24px'>"
 
 
 def generate_markdown(data: Dict) -> str:
