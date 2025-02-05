@@ -2,7 +2,7 @@
 
 These projects focus on different scientific techniques for data analysis and reduction.
 
-| Project | | Description | 🏠<br/>Project<br/>Home | 📦<br/>Python<br/>Library | 💻<br/>Desktop<br/>Application |
+| Project | | Description | 🏠<br/>Project<br/>Home | 📦<br/>Python<br/>Library | 🖥<br/>Desktop<br/>Application |
 |---------|-|-------------|-------------------------|---------------------------|---------------------------------|
 | <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/light.svg' height='32px' alt='EasyDiffraction'></picture> | ED | Diffraction<br/>`data analysis` | [diffraction] | [diffraction-lib] | [diffraction-app] |
 | <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/light.svg' height='32px' alt='EasyReflectometry'></picture> | ER | Reflectometry<br/>`data analysis` | [reflectometry] | [reflectometry-lib] | [reflectometry-app] |
