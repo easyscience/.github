@@ -1,0 +1,72 @@
+domain-specific-projects:
+  - name: EasyDiffraction
+    shortcut: ED
+    description:
+      main: Diffraction
+      type: data analysis
+    repos:
+      project: diffraction
+      lib: diffraction-lib
+      app: diffraction-app
+  - name: EasyReflectometry
+    shortcut: ER
+    description:
+      main: Reflectometry
+      type: data analysis
+    repos:
+      project: reflectometry
+      lib: reflectometry-lib
+      app: reflectometry-app
+  - name: EasyImaging
+    shortcut: EI
+    description:
+      main: Bragg-Edge Imaging
+      type: data analysis
+    repos:
+      project: imaging
+      lib: imaging-lib
+      app: imaging-app
+  - name: EasyDynamics
+    shortcut: EQ
+    description:
+      main: Quasielastic Neutron Scattering
+      type: data analysis
+    repos:
+      project: dynamics
+      lib: dynamics-lib
+      app: dynamics-app
+  - name: EasyTexture
+    shortcut: ET
+    description:
+      main: Texture
+      type: data reduction
+    repos:
+      project: texture
+      app: texture-app
+  - name: EasyShapes
+    shortcut: ES
+    description:
+      main: Molecular Structure Generation
+      type: simulation preparation
+    repos:
+      app: shapes-app
+
+core-framework-modules:
+  - name: EasyScience
+    shortcut: ESc
+    description:
+      main: EasyScience Core Library
+      type: backend
+    repo: corelib
+  - name: easycrystallography
+    shortcut: ECr
+    description:
+      main: Crystallographic Computation Tools
+      type: backend
+    repo: crystallography
+  - name: easyapp
+    shortcut: EAp
+    description:
+      main: GUI Components for Desktop Applications
+      type: frontend
+    repo: guilib

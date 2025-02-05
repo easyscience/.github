@@ -2,102 +2,45 @@
 
 These projects focus on different scientific techniques for data analysis and reduction.
 
-| Project                     | Description                                         | 🏠<br/>Project<br/>Home  | 📦<br/>Python<br/>Library | 💻<br/>Desktop<br/>Application |
-|-----------------------------|-----------------------------------------------------|--------------------------|---------------------------|---------------------------------|
-| ![ed-dark]![ed-light]       | Diffraction<br/>`data analysis`                     | [diffraction]            | [diffraction-lib]         | [diffraction-app]               |
-| ![er-dark]![er-light]       | Reflectometry<br/>`data analysis`                   | [reflectometry]          | [reflectometry-lib]       | [reflectometry-app]             |
-| ![ei-dark]![ei-light]       | Bragg-edge imaging<br/>`data analysis`              | [imaging]                | [imaging-lib]             | [imaging-app]                   |
-| ![eq-dark]![eq-light]       | Quasielastic neutron scattering<br/>`data analysis` | [dynamics]               | [dynamics-lib]            | [dynamics-app]                  |
-| ![et-dark]![et-light]       | Texture<br/>`data reduction`                        |                          |                           | [texture-app]                   |
-| ![esh-dark]![esh-light]     |                                                     |                          |                           | [shapes-app]                    |
+| Project | | Description | 🏠<br/>Project<br/>Home | 📦<br/>Python<br/>Library | 💻<br/>Desktop<br/>Application |
+|---------|-|-------------|-------------------------|---------------------------|---------------------------------|
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydiffraction/logos/light.svg' height='32px' alt='EasyDiffraction'></picture> | ED | Diffraction<br/>`data analysis` | [diffraction] | [diffraction-lib] | [diffraction-app] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyreflectometry/logos/light.svg' height='32px' alt='EasyReflectometry'></picture> | ER | Reflectometry<br/>`data analysis` | [reflectometry] | [reflectometry-lib] | [reflectometry-app] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyimaging/logos/light.svg' height='32px' alt='EasyImaging'></picture> | EI | Bragg-Edge Imaging<br/>`data analysis` | [imaging] | [imaging-lib] | [imaging-app] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydynamics/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydynamics/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easydynamics/logos/light.svg' height='32px' alt='EasyDynamics'></picture> | EQ | Quasielastic Neutron Scattering<br/>`data analysis` | [dynamics] | [dynamics-lib] | [dynamics-app] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easytexture/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easytexture/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easytexture/logos/light.svg' height='32px' alt='EasyTexture'></picture> | ET | Texture<br/>`data reduction` | [texture] |  | [texture-app] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyshapes/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyshapes/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyshapes/logos/light.svg' height='32px' alt='EasyShapes'></picture> | ES | Molecular Structure Generation<br/>`simulation preparation` |  |  | [shapes-app] |
+
 
 ### Core Framework Modules
 
 These are essential building blocks that support the domain-specific projects.
 
-| Project                     | Description                                            | Repository        |
-|-----------------------------|--------------------------------------------------------|-------------------|
-| ![eso-dark]![eso-light]     | EasyScience Organization Profile                       | [.github]         |
-| ![es-dark]![es-light]       | EasyScience Core Library<br/>`Backend`                 | [corelib]         |
-| ![ecr-dark]![ecr-light]     | Crystallographic Computation Tools<br/>`Backend`       | [crystallography] |
-| ![ea-dark]![ea-light]       | GUI Components for Desktop Applications<br/>`Frontend` | [guilib]          |
+| Project | | Description | Repository |
+|---------|-|-------------|------------|
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience/logos/light.svg' height='32px' alt='EasyScience'></picture> | ESc | EasyScience Core Library<br/>`backend` | [corelib] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easycrystallography/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easycrystallography/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easycrystallography/logos/light.svg' height='32px' alt='easycrystallography'></picture> | ECr | Crystallographic Computation Tools<br/>`backend` | [crystallography] |
+| <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/light.svg' height='32px' alt='easyapp'></picture> | EAp | GUI Components for Desktop Applications<br/>`frontend` | [guilib] |
 
 
-<!---LOGOS--->
-
-<!---Diffraction--->
-[ed-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyDiffraction/logos/ed-logo_152x48_dark.svg#gh-dark-mode-only
-[ed-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyDiffraction/logos/ed-logo_152x48_light.svg#gh-light-mode-only
-
-<!---Reflectometry--->
-[er-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyReflectometry/logos/er-logo_180x48_dark.svg#gh-dark-mode-only
-[er-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyReflectometry/logos/er-logo_180x48_light.svg#gh-light-mode-only
-
-<!---Imaging--->
-[ei-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyImaging/logos/ei-logo_126x48_dark.svg#gh-dark-mode-only
-[ei-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyImaging/logos/ei-logo_126x48_light.svg#gh-light-mode-only
-
-<!---QENS/Spectroscopy--->
-[eq-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyDynamics/logos/eq-logo_140x48_dark.svg#gh-dark-mode-only
-[eq-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyDynamics/logos/eq-logo_140x48_light.svg#gh-light-mode-only
-
-<!---Shapes/Shapespyer--->
-[esh-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyShapes/logos/esh-logo_118x48_dark.svg#gh-dark-mode-only
-[esh-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyShapes/logos/esh-logo_118x48_light.svg#gh-light-mode-only
-
-<!---Texture--->
-[et-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyTexture/logos/et-logo_120x48_dark.svg#gh-dark-mode-only
-[et-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyTexture/logos/et-logo_120x48_light.svg#gh-light-mode-only
-
-<!---Generic projects-->
-[eso-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyScienceOrg/logos/eso-logo_122x48_dark.svg#gh-dark-mode-only
-[eso-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyScienceOrg/logos/eso-logo_122x48_light.svg#gh-light-mode-only
-[es-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyScience/logos/es-logo_122x48_dark.svg#gh-dark-mode-only
-[es-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyScience/logos/es-logo_122x48_light.svg#gh-light-mode-only
-[ecr-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyCrystallography/logos/ecr-logo_198x48_dark.svg#gh-dark-mode-only
-[ecr-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyCrystallography/logos/ecr-logo_198x48_light.svg#gh-light-mode-only
-[ea-dark]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyApp/logos/ea-logo_91x48_dark.svg#gh-dark-mode-only
-[ea-light]: https://raw.githubusercontent.com/EasyScience/assets-branding/refs/heads/master/EasyApp/logos/ea-logo_91x48_light.svg#gh-light-mode-only
-
-<!---REPOS--->
-
-<!---Diffraction--->
-[diffraction]: https://github.com/EasyScience/EasyDiffraction
-[diffraction-lib]: https://github.com/EasyScience/EasyDiffractionLib
-[diffraction-app]: https://github.com/EasyScience/EasyDiffractionApp
-[diffraction-page]: https://easyscience.github.io/EasyDiffractionWww
-[diffraction-lib-docs]: https://easyscience.github.io/EasyDiffractionLibDocs
-[diffraction-app-docs]: https://easyscience.github.io/EasyDiffractionAppDocs
-
-<!---Reflectometry--->
-[reflectometry]: https://github.com/EasyScience/EasyReflectometry
-[reflectometry-lib]: https://github.com/EasyScience/EasyReflectometryLib
-[reflectometry-app]: https://github.com/EasyScience/EasyReflectometryApp
-[reflectometry-page]: https://easyscience.github.io/EasyReflectometryWww
-
-<!---Imaging--->
-[imaging]: https://github.com/EasyScience/imaging
-[imaging-lib]: https://github.com/EasyScience/imaging-lib
-[imaging-app]: https://github.com/EasyScience/imaging-app
-
-<!---QENS/Spectroscopy--->
-[dynamics]: https://github.com/EasyScience/EasyQens
-[dynamics-lib]: https://github.com/EasyScience/EasyQensLib
-[dynamics-app]: https://github.com/EasyScience/EasyQensApp
-
-<!---Shapes/Shapespyer--->
+<!---Domain-Specific Projects--->
+[diffraction]: https://github.com/easyscience/diffraction
+[diffraction-lib]: https://github.com/easyscience/diffraction-lib
+[diffraction-app]: https://github.com/easyscience/diffraction-app
+[reflectometry]: https://github.com/easyscience/reflectometry
+[reflectometry-lib]: https://github.com/easyscience/reflectometry-lib
+[reflectometry-app]: https://github.com/easyscience/reflectometry-app
+[imaging]: https://github.com/easyscience/imaging
+[imaging-lib]: https://github.com/easyscience/imaging-lib
+[imaging-app]: https://github.com/easyscience/imaging-app
+[dynamics]: https://github.com/easyscience/dynamics
+[dynamics-lib]: https://github.com/easyscience/dynamics-lib
+[dynamics-app]: https://github.com/easyscience/dynamics-app
+[texture]: https://github.com/easyscience/texture
+[texture-app]: https://github.com/easyscience/texture-app
 [shapes-app]: https://github.com/easyscience/shapes-app
 
-<!---Texture--->
-[texture-app]: https://github.com/EasyScience/EasyTextureApp
-
-<!---Generic projects-->
-[.github]: https://github.com/EasyScience/.github
-[corelib]: https://github.com/EasyScience/EasyScience
-[crystallography]: https://github.com/EasyScience/EasyCrystallography
-[guilib]: https://github.com/EasyScience/EasyApp
-
-<!---Common resources--->
-[assets-branding]: https://github.com/EasyScience/BrandingResources
-[assets-page]: https://github.com/EasyScience/EasySite
-[assets-docs]: https://github.com/EasyScience/CommonDocsAssets
+<!---Core Framework Modules--->
+[corelib]: https://github.com/easyscience/corelib
+[crystallography]: https://github.com/easyscience/crystallography
+[guilib]: https://github.com/easyscience/guilib
