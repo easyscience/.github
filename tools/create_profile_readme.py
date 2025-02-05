@@ -33,7 +33,7 @@ def generate_logo(project_name: str) -> str:
     return (f"<picture>"
             f"<source media='(prefers-color-scheme: light)' srcset='{logos_url}/light.svg'>"
             f"<source media='(prefers-color-scheme: dark)' srcset='{logos_url}/dark.svg'>"
-            f"<img src='{logos_url}/light.svg' height='32px' alt='{project_name}'>"
+            f"<img src='{logos_url}/light.svg' height='38px' alt='{project_name}'>"
             f"</picture>")
 
 
