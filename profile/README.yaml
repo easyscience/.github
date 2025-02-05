@@ -41,7 +41,6 @@ domain-specific-projects:
       main: Texture
       type: data reduction
     repos:
-      project: texture
       app: texture-app
   - name: EasyShapes
     shortcut: ES
