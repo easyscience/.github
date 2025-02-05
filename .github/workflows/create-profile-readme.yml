@@ -3,9 +3,8 @@ name: Create profile readme
 on:
   # Trigger the workflow on push
   push:
-    # Every branch
-    branches:
-      - '**'
+    # To the master branche only
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
