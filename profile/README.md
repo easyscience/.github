@@ -22,6 +22,9 @@ These are essential building blocks that support the domain-specific projects.
 | <picture><source media='(prefers-color-scheme: light)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/light.svg'><source media='(prefers-color-scheme: dark)' srcset='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/dark.svg'><img src='https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyapp/logos/light.svg' height='37px' alt='easyapp'></picture> | EAp | GUI Components for Desktop Applications<br/>`frontend` | [guilib] |
 
 
+ More details on creating new projects within the **EasyScience** organization can be found [here](https://github.com/easyscience/.github/blob/master/README.md).
+
+
 <!---Domain-Specific Projects--->
 [diffraction]: https://github.com/easyscience/diffraction
 [diffraction-lib]: https://github.com/easyscience/diffraction-lib
