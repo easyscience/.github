@@ -5,7 +5,7 @@
     <!-- Dark mode -->
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience-org/logos/dark.svg">
     <!-- Default -->
-    <img src="https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience-org/logos/light.svg" height="37px" alt="EasyScience">
+    <img src="https://raw.githubusercontent.com/easyscience/assets-branding/refs/heads/master/easyscience-org/logos/light.svg" height="70px" alt="EasyScience">
   </picture>
 </p>
 
