@@ -114,8 +114,11 @@ def generate_markdown(data: Dict) -> str:
 
         markdown_output += f"| {logo} | {shortcut} | {description} | {repo} |\n"
 
+    # Append Link to the main README.md
+    markdown_output += "\n\n More details on creating new projects within the **EasyScience** organization can be found [here](https://github.com/easyscience/.github/blob/master/README.md)."
+
     # Append Repository Links
-    markdown_output += "\n" + generate_repository_links(data)
+    markdown_output += "\n\n" + generate_repository_links(data)
 
     return markdown_output
 
