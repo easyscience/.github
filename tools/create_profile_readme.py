@@ -120,6 +120,20 @@ def generate_markdown(data: Dict) -> str:
     # Append Repository Links
     markdown_output += "\n\n" + generate_repository_links(data)
 
+    # TEMPORARY FIX: Change some project urls
+    urls = {
+        "https://github.com/easyscience/diffraction-lib": "https://github.com/easyscience/EasyDiffractionLib",
+        "https://github.com/easyscience/diffraction-app": "https://github.com/easyscience/EasyDiffractionApp",
+        "https://github.com/easyscience/diffraction": "https://github.com/easyscience/EasyDiffraction",
+        "https://github.com/easyscience/reflectometry-lib": "https://github.com/easyscience/EasyReflectometryLib",
+        "https://github.com/easyscience/reflectometry-app": "https://github.com/easyscience/EasyReflectometryApp",
+        "https://github.com/easyscience/reflectometry": "https://github.com/easyscience/EasyReflectometry",
+        "https://github.com/easyscience/crystallography": "https://github.com/easyscience/EasyCrystallography",
+        "https://github.com/easyscience/guilib": "https://github.com/easyscience/EasyApp",
+    }
+    for old_url, new_url in urls.items():
+        markdown_output = markdown_output.replace(old_url, new_url)
+
     return markdown_output
 
 
