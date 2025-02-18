@@ -64,12 +64,12 @@ Edit [README.yaml](https://github.com/easyscience/.github/blob/master/profile/RE
 ## 3. Create Repositories Using Templates
 EasyScience provides predefined **Copier templates** for new repositories:
 
-| **Template**   | **Purpose**                           | **Repository**                                                                |
-|----------------|---------------------------------------|-------------------------------------------------------------------------------|
-| `project-base` | Base project template                 | [templates-project](https://github.com/easyscience/templates-project-base)    |
-| `project-home` | Home project repository               | [templates-project](https://github.com/easyscience/templates-project-home)    |
-| `project-lib`  | Python package repository             | [templates-project-lib](https://github.com/easyscience/templates-project-lib) |
-| `project-app`  | Qt QML desktop application repository | [templates-project-app](https://github.com/easyscience/templates-project-app) |
+| **Template**   | **Purpose**                           | **Repository**                                                                  |
+|----------------|---------------------------------------|---------------------------------------------------------------------------------|
+| `project-base` | Base project template                 | [templates-project-base](https://github.com/easyscience/templates-project-base) |
+| `project-home` | Home project repository               | [templates-project-home](https://github.com/easyscience/templates-project-home) |
+| `project-lib`  | Python package repository             | [templates-project-lib](https://github.com/easyscience/templates-project-lib)   |
+| `project-app`  | Qt QML desktop application repository | [templates-project-app](https://github.com/easyscience/templates-project-app)   |
 
 ### 3.1 Create a Repository on GitHub
 Here is an example for creating a new repository `superduper-lib` which will be a Python 
