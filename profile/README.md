@@ -26,12 +26,12 @@ These are essential building blocks that support the domain-specific projects.
 
 
 <!---Domain-Specific Projects--->
-[diffraction]: https://github.com/easyscience/diffraction
-[diffraction-lib]: https://github.com/easyscience/diffraction-lib
-[diffraction-app]: https://github.com/easyscience/diffraction-app
-[reflectometry]: https://github.com/easyscience/reflectometry
-[reflectometry-lib]: https://github.com/easyscience/reflectometry-lib
-[reflectometry-app]: https://github.com/easyscience/reflectometry-app
+[diffraction]: https://github.com/easyscience/EasyDiffraction
+[diffraction-lib]: https://github.com/easyscience/EasyDiffractionLib
+[diffraction-app]: https://github.com/easyscience/EasyDiffractionApp
+[reflectometry]: https://github.com/easyscience/EasyReflectometry
+[reflectometry-lib]: https://github.com/easyscience/EasyReflectometryLib
+[reflectometry-app]: https://github.com/easyscience/EasyReflectometryApp
 [imaging]: https://github.com/easyscience/imaging
 [imaging-lib]: https://github.com/easyscience/imaging-lib
 [imaging-app]: https://github.com/easyscience/imaging-app
@@ -43,5 +43,5 @@ These are essential building blocks that support the domain-specific projects.
 
 <!---Core Framework Modules--->
 [corelib]: https://github.com/easyscience/corelib
-[crystallography]: https://github.com/easyscience/crystallography
-[guilib]: https://github.com/easyscience/guilib
+[crystallography]: https://github.com/easyscience/EasyCrystallography
+[guilib]: https://github.com/easyscience/EasyApp
