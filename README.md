@@ -14,12 +14,12 @@
 - **Efficient front-end modules**: QML components for developing desktop applications with ease.
 
 ## 📖 Table of Contents
-1. [🔑 Set Up GitHub Access](#1-set-up-github-access)
+1. [🔑 Set Up GitHub Access](#1--set-up-github-access)
 2. [📌 Define the Project in the Organization Profile](#2--define-the-project-in-the-organization-profile)
-3. [📦 Create Repositories Using Templates](#3-📦-create-repositories-using-templates)
-4. [🚀 Push Changes to GitHub](#4-🚀-push-changes-to-github)
-5. [⚙️ Repository Configuration](#5-⚙️-repository-configuration)
-6. [🔄 Updating the Repository with Template Changes](#6-🔄-updating-the-repository-with-template-changes)
+3. [📦 Create Repositories Using Templates](#3--create-repositories-using-templates)
+4. [🚀 Push Changes to GitHub](#4--push-changes-to-github)
+5. [⚙️ Repository Configuration](#5--repository-configuration)
+6. [🔄 Updating the Repository with Template Changes](#6--updating-the-repository-with-template-changes)
 
 ## 1. 🔑 Set Up GitHub Access
 GitHub access can be managed via **Personal Access Tokens (PATs)**:
