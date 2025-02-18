@@ -22,6 +22,7 @@
 6. [🔄 Updating the Repository with Template Changes](#6--updating-the-repository-with-template-changes)
 
 ## 1. 🔑 Set Up GitHub Access
+
 GitHub access can be managed via **Personal Access Tokens (PATs)**:
 
 ### 1.1. Generate a Personal Access Token (PAT)
@@ -38,6 +39,7 @@ You can now use PAT to interact with GitHub via:
 - **GUI tools** *(e.g., GitKraken for an intuitive interface).*
 
 ## 2. 📌 Define the Project in the Organization Profile
+
 Each project should be fist **registered** in the EasyScience organization profile.
 
 ### 2.1. Add Project Definition
@@ -147,6 +149,7 @@ copier copy gh:easyscience/templates-project-lib ./ --data-file .copier-answers.
 we use the `--data-file` option followed by the path to the answers file)*
 
 ## 4. 🚀 Push Changes to GitHub
+
 ```bash
 cd superduper-lib
 git add -A
@@ -156,6 +159,7 @@ git push origin master
 *(Alternatively, use a GUI client like GitKraken.)*
 
 ## 5. ⚙️ Repository Configuration
+
 - **Add repository secrets** *(e.g., API keys, deployment keys)*.
 - **Configure branch protection & access control**.
 
