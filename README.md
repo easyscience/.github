@@ -14,6 +14,7 @@
 - **Efficient front-end modules**: QML components for developing desktop applications with ease.
 
 ## 📖 Table of Contents
+
 1. [🔑 Set Up GitHub Access](#1--set-up-github-access)
 2. [📌 Define the Project in the Organization Profile](#2--define-the-project-in-the-organization-profile)
 3. [📦 Create Repositories Using Templates](#3--create-repositories-using-templates)
@@ -26,6 +27,7 @@
 GitHub access can be managed via **Personal Access Tokens (PATs)**:
 
 ### 1.1. Generate a Personal Access Token (PAT)
+
 1. Go to **GitHub → Settings → Developer Settings → Personal Access Tokens**.
 2. Click **"Generate new token"**.
 3. Select:
@@ -34,18 +36,21 @@ GitHub access can be managed via **Personal Access Tokens (PATs)**:
 4. Click **"Generate token"** and copy it.
 
 ### 1.2. Using PAT
+
 You can now use PAT to interact with GitHub via:
 - **Terminal** *(Recommended for advanced users).*
 - **GUI tools** *(e.g., GitKraken for an intuitive interface).*
 
 ## 2. 📌 Define the Project in the Organization Profile
 
-Each project should be fist **registered** in the EasyScience organization profile.
+Each project should first be **registered** under the EasyScience organization profile.
 
 ### 2.1. Add Project Definition
+
 Edit [README.yaml](https://github.com/easyscience/.github/blob/master/profile/README.yaml) under `domain-specific-projects`.  
 
 ### 2.2. Include the following details:
+
 - **name** → The project name, prefixed with **Easy** (e.g., *EasyDiffraction*).
 - **shortcut** → A short, two-letter abbreviation (e.g., *ED*).
 - **description**:
@@ -97,15 +102,15 @@ By combining the base template with the appropriate project-specific template, y
 
 ### 3.1. Create a Repository on GitHub
 
-Here is an example for creating a new repository `superduper-lib` which will be a Python
-library for the project `SuperDuper`. Creating a new repository `superduper-home` (project home) or `superduper-app`
+Here is an example for creating a new repository `peasy-lib` which will be a Python
+library for the project `EasyPeasy`. Creating a new repository `peasy-home` (project home) or `peasy-app`
 (desktop app) could be done in a similar way.
 
 Create a new repository:
 
 1. Navigate to **GitHub** → **Create New Repository**.
 2. **Repository template:** No template *(we will use Copier instead)*.
-3. **Enter the repository name**, e.g., `superduper-lib`.
+3. **Enter the repository name**, e.g., `peasy-lib`.
 4. **Description**: Add a description based on the [README.yaml](https://github.com/easyscience/.github/blob/master/profile/README.yaml) definition from above, e.g., Diffraction data analysis.
 5. **Set repository visibility** to **Public**.
 6. **DO NOT initialize** with a README, `.gitignore`, or license *(Copier handles these)*.
@@ -113,19 +118,22 @@ Create a new repository:
 
 ### 3.2. Clone the Repository
 ```bash
-git clone https://github.com/easyscience/superduper-lib.git
+git clone https://github.com/easyscience/peasy-lib.git
 ```
 
 ### 3.3. Navigate to the project directory
 ```bash
-cd superduper-lib
+cd peasy-lib
 ```
 
 ### 3.4. Set Up a Virtual Environment (Optional)
 ```bash
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\\Scripts\\activate   # Windows
+python -m venv .venv
+
+source .venv/bin/activate        # macOS/Linux
+source .venv/Scripts/activate    # Windows with Unix like shells
+.\\.venv\\Scripts\\activate.bat  # Windows with CMD
+.\\.venv\\Scripts\\activate.ps1  # Windows with Power shell.
 ```
 
 ### 3.5. Install Copier (if not already installed)
