@@ -132,8 +132,8 @@ python -m venv .venv
 
 source .venv/bin/activate        # macOS/Linux
 source .venv/Scripts/activate    # Windows with Unix like shells
-.\\.venv\\Scripts\\activate.bat  # Windows with CMD
-.\\.venv\\Scripts\\activate.ps1  # Windows with Power shell
+.\.venv\Scripts\activate.bat  # Windows with CMD
+.\.venv\Scripts\activate.ps1  # Windows with Power shell
 ```
 
 ### 3.5. Install Copier (if not already installed)
