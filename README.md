@@ -128,7 +128,7 @@ cd diffraction-lib
 
 ### 3.4. Set up a virtual environment (optional)
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 
 source .venv/bin/activate      # macOS/Linux
 source .venv/Scripts/activate  # Windows with Unix like shells
@@ -149,7 +149,7 @@ copier copy gh:easyscience/templates-project-base ./
 
 ### 3.7. Extend with additional templates
 ```bash
-copier copy gh:easyscience/templates-project-lib ./ --data-file .copier-answers.project.yml
+copier copy gh:easyscience/templates-project-lib ./ --data-file .copier-answers.project-base.yml
 ```
 *(Follow interactive prompts to configure the project.)*
 
