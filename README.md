@@ -130,8 +130,8 @@ cd diffraction-lib
 ```bash
 python3 -m venv .venv
 
-source .venv/bin/activate      # macOS/Linux
-source .venv/Scripts/activate  # Windows with Unix like shells
+. .venv/bin/activate      # macOS/Linux
+. .venv/Scripts/activate  # Windows with Unix like shells
 .\.venv\Scripts\activate.bat   # Windows with CMD
 .\.venv\Scripts\activate.ps1   # Windows with Power shell
 ```
