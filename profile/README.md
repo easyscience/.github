@@ -27,7 +27,7 @@ These are essential building blocks that support the domain-specific projects.
 
 <!---Domain-Specific Projects--->
 [diffraction]: https://github.com/easyscience/EasyDiffraction
-[diffraction-lib]: https://github.com/easyscience/EasyDiffraction-lib
+[diffraction-lib]: https://github.com/easyscience/diffraction-lib
 [diffraction-app]: https://github.com/easyscience/EasyDiffractionApp
 [reflectometry]: https://github.com/easyscience/EasyReflectometry
 [reflectometry-lib]: https://github.com/easyscience/EasyReflectometryLib
