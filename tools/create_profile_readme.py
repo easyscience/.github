@@ -122,7 +122,7 @@ def generate_markdown(data: Dict) -> str:
 
     # TEMPORARY FIX: Change some project urls
     urls = {
-        "https://github.com/easyscience/diffraction-lib": "https://github.com/easyscience/EasyDiffractionLib",
+        "https://github.com/easyscience/diffraction-lib": "https://github.com/easyscience/diffraction-lib",
         "https://github.com/easyscience/diffraction-app": "https://github.com/easyscience/EasyDiffractionApp",
         "https://github.com/easyscience/diffraction": "https://github.com/easyscience/EasyDiffraction",
         "https://github.com/easyscience/reflectometry-lib": "https://github.com/easyscience/EasyReflectometryLib",
