@@ -46,7 +46,7 @@ domain-specific-projects:
     shortcut: ES
     description:
       main: Molecular Structure Generation
-      type: simulation preparation
+      type: multiscale simulation workflows
     repos:
       app: shapes-app
 
