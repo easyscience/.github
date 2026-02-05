@@ -48,6 +48,7 @@ domain-specific-projects:
       main: Molecular Structure Generation
       type: multiscale simulation workflows
     repos:
+      project: shapes
       app: shapes-app
 
 core-framework-modules:
