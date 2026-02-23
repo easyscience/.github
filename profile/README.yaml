@@ -58,6 +58,12 @@ core-framework-modules:
       main: EasyScience Core Library
       type: backend
     repo: corelib
+  - name: EasyUtilities
+    shortcut: EUt
+    description:
+      main: EasyScience Utilities
+      type: backend
+    repo: utils
   - name: easycrystallography
     shortcut: ECr
     description:
