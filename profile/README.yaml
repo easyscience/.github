@@ -55,19 +55,19 @@ core-framework-modules:
   - name: EasyScience
     shortcut: ESc
     description:
-      main: EasyScience Core Library
+      main: EasyScience Core Module
       type: backend
     repo: core
   - name: EasyUtilities
     shortcut: EUt
     description:
-      main: EasyScience Utilities
+      main: Shared Utilities for EasyScience
       type: backend
     repo: utils
   - name: easycrystallography
     shortcut: ECr
     description:
-      main: Crystallographic Computation Tools
+      main: Crystallography Utilities
       type: backend
     repo: crystallography
   - name: easyapp
