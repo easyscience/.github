@@ -57,7 +57,7 @@ core-framework-modules:
     description:
       main: EasyScience Core Library
       type: backend
-    repo: corelib
+    repo: core
   - name: EasyUtilities
     shortcut: EUt
     description:
@@ -75,4 +75,4 @@ core-framework-modules:
     description:
       main: GUI Components for Desktop Applications
       type: frontend
-    repo: guilib
+    repo: gui-components
