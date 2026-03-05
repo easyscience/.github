@@ -47,4 +47,4 @@ These are essential building blocks that support the domain-specific projects.
 [core]: https://github.com/easyscience/core
 [utils]: https://github.com/easyscience/utils
 [crystallography]: https://github.com/easyscience/EasyCrystallography
-[gui-components]: https://github.com/easyscience/gui-components
+[gui-components]: https://github.com/easyscience/EasyApp
