@@ -127,7 +127,7 @@ def generate_markdown(data: Dict) -> str:
         "https://github.com/easyscience/reflectometry-app": "https://github.com/easyscience/EasyReflectometryApp",
         "https://github.com/easyscience/reflectometry": "https://github.com/easyscience/EasyReflectometry",
         "https://github.com/easyscience/crystallography": "https://github.com/easyscience/EasyCrystallography",
-        "https://github.com/easyscience/guilib": "https://github.com/easyscience/EasyApp",
+        "https://github.com/easyscience/gui-components": "https://github.com/easyscience/EasyApp",
     }
     for old_url, new_url in urls.items():
         markdown_output = markdown_output.replace(old_url, new_url)
