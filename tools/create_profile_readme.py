@@ -124,7 +124,6 @@ def generate_markdown(data: Dict) -> str:
     urls = {
         "https://github.com/easyscience/diffraction-app": "https://github.com/easyscience/EasyDiffractionApp",
         "https://github.com/easyscience/reflectometry-app": "https://github.com/easyscience/EasyReflectometryApp",
-        "https://github.com/easyscience/reflectometry": "https://github.com/easyscience/EasyReflectometry",
         "https://github.com/easyscience/crystallography": "https://github.com/easyscience/EasyCrystallography",
         "https://github.com/easyscience/gui-components": "https://github.com/easyscience/EasyApp",
     }
