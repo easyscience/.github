@@ -27,7 +27,7 @@ domain-specific-projects:
       lib: imaging-lib
       app: imaging-app
   - name: EasyDynamics
-    shortcut: EQ
+    shortcut: EDY
     description:
       main: Quasielastic Neutron Scattering
       type: data analysis
@@ -43,7 +43,7 @@ domain-specific-projects:
     repos:
       app: texture-app
   - name: EasyShapes
-    shortcut: ES
+    shortcut: ESH
     description:
       main: Molecular Structure Generation
       type: multiscale simulation workflows
@@ -53,25 +53,25 @@ domain-specific-projects:
 
 core-framework-modules:
   - name: EasyScience
-    shortcut: ESc
+    shortcut: ES
     description:
       main: EasyScience Core Module
       type: backend
     repo: core
   - name: EasyUtilities
-    shortcut: EUt
+    shortcut: EUT
     description:
       main: Shared Utilities for EasyScience
       type: backend
     repo: utils
   - name: easycrystallography
-    shortcut: ECr
+    shortcut: EC
     description:
       main: Crystallography Utilities
       type: backend
     repo: crystallography
-  - name: easyapp
-    shortcut: EAp
+  - name: easyapplication
+    shortcut: EA
     description:
       main: GUI Components for Desktop Applications
       type: frontend
